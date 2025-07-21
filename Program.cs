@@ -12,7 +12,8 @@ namespace DotNetVerse
         {
             //ValueReferenceTypes();
             //ControlStructures()'
-            ArraysListsDictionaryCRUD();
+            //ArraysListsDictionaryCRUD();
+            DataManagement();
         }
         public static void ValueReferenceTypes()
         {
@@ -38,6 +39,14 @@ namespace DotNetVerse
             arraysListsDictionaryCRUD.ArraysExample();
             arraysListsDictionaryCRUD.ListsExample();
             arraysListsDictionaryCRUD.DictionaryExample();
+            Console.ReadKey();
+        }
+        public static void DataManagement()
+        {
+            DataManagement dataManagement = new DataManagement();
+            dataManagement.StringExample();
+            dataManagement.StringBuilderExample();
+            dataManagement.DateTimeExample();
             Console.ReadKey();
         }
     }
