@@ -13,7 +13,8 @@ namespace DotNetVerse
             //ValueReferenceTypes();
             //ControlStructures()'
             //ArraysListsDictionaryCRUD();
-            DataManagement();
+            //DataManagement();
+            ExceptionManagement();
         }
         public static void ValueReferenceTypes()
         {
@@ -47,6 +48,15 @@ namespace DotNetVerse
             dataManagement.StringExample();
             dataManagement.StringBuilderExample();
             dataManagement.DateTimeExample();
+            Console.ReadKey();
+        }
+
+        public static void ExceptionManagement()
+        {
+            ExceptionManagement exceptionManagement = new ExceptionManagement();
+            exceptionManagement.ExceptionManagementWithSingleTryCatchExample();
+            exceptionManagement.ExceptionManagementWithSingleTryMultiCatchExample();
+
             Console.ReadKey();
         }
     }

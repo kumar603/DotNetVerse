@@ -46,6 +46,7 @@
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
+    <Compile Include="CSharp\Fundementals\ExceptionManagement.cs" />
     <Compile Include="CSharp\Fundementals\ValueReferenceTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
