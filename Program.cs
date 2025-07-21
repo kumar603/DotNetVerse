@@ -15,7 +15,8 @@ namespace DotNetVerse
             //ArraysListsDictionaryCRUD();
             //DataManagement();
             //ExceptionManagement();
-            FilesManagement();
+            //FilesManagement();
+            RetroFundamentalsAppExample();
         }
         public static void ValueReferenceTypes()
         {
@@ -67,6 +68,12 @@ namespace DotNetVerse
             filesManagement.FilesManagementWithStreamReadAndWriter();
 
             Console.ReadKey();
+        }
+        public static void RetroFundamentalsAppExample()
+        {
+            RetroFundamentalsApp retroFundamentalsApp = new RetroFundamentalsApp();
+            retroFundamentalsApp.RetroFundamentalsAppExample();
+
         }
     }
 }
