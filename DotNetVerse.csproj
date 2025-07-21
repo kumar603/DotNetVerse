@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\ValueReferenceTypes.cs" />
     <Compile Include="Program.cs" />
