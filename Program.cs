@@ -20,7 +20,8 @@ namespace DotNetVerse
             //RetroFundamentalsAppExample();
 
             //Part 2 - Deep Dive into OOPS in C#
-            ClassesObjectsConstructors();
+            //ClassesObjectsConstructors();
+            InheritanceAbstractClass();
         }
         public static void ValueReferenceTypes()
         {
@@ -89,5 +90,14 @@ namespace DotNetVerse
             classesObjectsConstructors.CreateClassWithFieldsAndConstructorExample();
             Console.ReadKey();
         }
+        public static void InheritanceAbstractClass()
+        {
+            InheritanceAbstractClass inheritanceAbstractClass = new InheritanceAbstractClass();
+            inheritanceAbstractClass.InheritanceExample();
+            inheritanceAbstractClass.AbstractClassExample();
+            Console.ReadKey();
+        }
+
+       
     }
 }
