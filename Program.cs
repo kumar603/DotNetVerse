@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DotNetVerse.CSharp.Fundementals;
+using DotNetVerse.CSharp.DeepOops;
 namespace DotNetVerse
 {
     internal class Program
@@ -16,7 +17,10 @@ namespace DotNetVerse
             //DataManagement();
             //ExceptionManagement();
             //FilesManagement();
-            RetroFundamentalsAppExample();
+            //RetroFundamentalsAppExample();
+
+            //Part 2 - Deep Dive into OOPS in C#
+            ClassesObjectsConstructors();
         }
         public static void ValueReferenceTypes()
         {
@@ -74,6 +78,16 @@ namespace DotNetVerse
             RetroFundamentalsApp retroFundamentalsApp = new RetroFundamentalsApp();
             retroFundamentalsApp.RetroFundamentalsAppExample();
 
+        }
+
+        //Deep Dive into OOPS in C#
+        public static void ClassesObjectsConstructors()
+        {
+            ClassesObjectsConstructors classesObjectsConstructors = new ClassesObjectsConstructors();
+            classesObjectsConstructors.CreateClassWithFieldsExample();
+            classesObjectsConstructors.CreateClassWithPropertiesExample();
+            classesObjectsConstructors.CreateClassWithFieldsAndConstructorExample();
+            Console.ReadKey();
         }
     }
 }

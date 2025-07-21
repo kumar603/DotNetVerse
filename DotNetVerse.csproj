@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharp\DeepOops\ClassesObjectsConstructors.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
@@ -59,5 +60,6 @@
   <ItemGroup>
     <Content Include="Data\data.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

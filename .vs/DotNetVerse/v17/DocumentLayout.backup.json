@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\DotNet\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\fundementals\\retrofundamentalsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\retrofundamentalsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\fundementals\\filesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\filesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\deepoops\\classesobjectsconstructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\classesobjectsconstructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\data\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:data\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\fundementals\\exceptionmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\exceptionmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\fundementals\\datamanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\datamanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\fundementals\\arrayslistsdictionarycrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\arrayslistsdictionarycrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\fundementals\\retrofundamentalsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\fundementals\\retrofundamentalsapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,88 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RetroFundamentalsApp.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\RetroFundamentalsApp.cs",
-              "RelativeDocumentMoniker": "CSharp\\Fundementals\\RetroFundamentalsApp.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\RetroFundamentalsApp.cs",
-              "RelativeToolTip": "CSharp\\Fundementals\\RetroFundamentalsApp.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAG4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T11:03:41.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "data.txt",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Data\\data.txt",
-              "RelativeDocumentMoniker": "Data\\data.txt",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Data\\data.txt",
-              "RelativeToolTip": "Data\\data.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-21T10:47:30.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FilesManagement.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\FilesManagement.cs",
-              "RelativeDocumentMoniker": "CSharp\\Fundementals\\FilesManagement.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\FilesManagement.cs",
-              "RelativeToolTip": "CSharp\\Fundementals\\FilesManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T10:37:04.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExceptionManagement.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\ExceptionManagement.cs",
-              "RelativeDocumentMoniker": "CSharp\\Fundementals\\ExceptionManagement.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\ExceptionManagement.cs",
-              "RelativeToolTip": "CSharp\\Fundementals\\ExceptionManagement.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T10:05:21.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataManagement.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\DataManagement.cs",
-              "RelativeDocumentMoniker": "CSharp\\Fundementals\\DataManagement.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\DataManagement.cs",
-              "RelativeToolTip": "CSharp\\Fundementals\\DataManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T09:34:33.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArraysListsDictionaryCRUD.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\ArraysListsDictionaryCRUD.cs",
-              "RelativeDocumentMoniker": "CSharp\\Fundementals\\ArraysListsDictionaryCRUD.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\ArraysListsDictionaryCRUD.cs",
-              "RelativeToolTip": "CSharp\\Fundementals\\ArraysListsDictionaryCRUD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T08:33:20.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T15:17:19.262Z",
+              "WhenOpened": "2025-07-21T13:28:20.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassesObjectsConstructors.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\ClassesObjectsConstructors.cs",
+              "RelativeDocumentMoniker": "CSharp\\DeepOops\\ClassesObjectsConstructors.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\ClassesObjectsConstructors.cs",
+              "RelativeToolTip": "CSharp\\DeepOops\\ClassesObjectsConstructors.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:17:24.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RetroFundamentalsApp.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\RetroFundamentalsApp.cs",
+              "RelativeDocumentMoniker": "CSharp\\Fundementals\\RetroFundamentalsApp.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\Fundementals\\RetroFundamentalsApp.cs",
+              "RelativeToolTip": "CSharp\\Fundementals\\RetroFundamentalsApp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:03:41.065Z",
               "EditorCaption": ""
             }
           ]
