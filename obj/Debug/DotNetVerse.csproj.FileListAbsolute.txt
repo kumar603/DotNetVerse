@@ -1,0 +1,7 @@
+C:\DotNet\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.exe.config
+C:\DotNet\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.exe
+C:\DotNet\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.pdb
+C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.AssemblyReference.cache
+C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.CoreCompileInputs.cache
+C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe
+C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.pdb
