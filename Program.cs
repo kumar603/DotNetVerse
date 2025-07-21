@@ -14,7 +14,8 @@ namespace DotNetVerse
             //ControlStructures()'
             //ArraysListsDictionaryCRUD();
             //DataManagement();
-            ExceptionManagement();
+            //ExceptionManagement();
+            FilesManagement();
         }
         public static void ValueReferenceTypes()
         {
@@ -56,6 +57,14 @@ namespace DotNetVerse
             ExceptionManagement exceptionManagement = new ExceptionManagement();
             exceptionManagement.ExceptionManagementWithSingleTryCatchExample();
             exceptionManagement.ExceptionManagementWithSingleTryMultiCatchExample();
+
+            Console.ReadKey();
+        }
+        public static void FilesManagement()
+        {
+            FilesManagement filesManagement = new FilesManagement();
+            filesManagement.FilesManagementWithFileExample();
+            filesManagement.FilesManagementWithStreamReadAndWriter();
 
             Console.ReadKey();
         }

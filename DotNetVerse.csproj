@@ -47,12 +47,16 @@
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
     <Compile Include="CSharp\Fundementals\ExceptionManagement.cs" />
+    <Compile Include="CSharp\Fundementals\FilesManagement.cs" />
     <Compile Include="CSharp\Fundementals\ValueReferenceTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
