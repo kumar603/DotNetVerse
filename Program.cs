@@ -25,7 +25,8 @@ namespace DotNetVerse
             //Interfaces()
             //Polymorphism(); 
             //Encapsulation();
-            EventsDelegatesAnonymousFunctions();
+            //EventsDelegatesAnonymousFunctions();
+            TypesSafetyGenericsCollections();
         }
         public static void ValueReferenceTypes()
         {
@@ -127,6 +128,15 @@ namespace DotNetVerse
             eventsDelegatesAnonymousFunctions.DelegatesExample();
             eventsDelegatesAnonymousFunctions.AnonymousExample();
             eventsDelegatesAnonymousFunctions.EventsExample();
+            Console.ReadKey();
+        }
+        public static void TypesSafetyGenericsCollections()
+        {
+            TypesSafetyGenericsCollections  typesSafetyGenericsCollections = new TypesSafetyGenericsCollections();
+            typesSafetyGenericsCollections.GenericsList();
+            typesSafetyGenericsCollections.GenericDictionary();
+            typesSafetyGenericsCollections.CustomGenericMethod();
+            typesSafetyGenericsCollections.CustomGenericClass();
             Console.ReadKey();
         }
     }

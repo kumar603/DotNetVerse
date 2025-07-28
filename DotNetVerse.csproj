@@ -49,6 +49,7 @@
     <Compile Include="CSharp\DeepOops\InheritanceAbstractClass.cs" />
     <Compile Include="CSharp\DeepOops\Interfaces.cs" />
     <Compile Include="CSharp\DeepOops\Polymorphism.cs" />
+    <Compile Include="CSharp\DeepOops\TypesSafetyGenericsCollections.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
