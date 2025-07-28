@@ -49,6 +49,24 @@ namespace DotNetVerse.CSharp.DeepOops
     }
     internal class Interfaces
     {
+
+        internal void InterfacesExample()
+        {
+            IVehicle  car = new Car();
+            car.Start();    
+            car.Stop();  
+
+        }
+
+        internal void InterfacesMultipleExample()
+        {
+            MultiFunctionPrinter  multiFunctionPrinter   = new MultiFunctionPrinter();
+            multiFunctionPrinter.Print();
+            multiFunctionPrinter.Fax();
+            multiFunctionPrinter.Scan();
+
+        }
+
         public class Car : IVehicle
         {
             public void Start()

@@ -21,7 +21,9 @@ namespace DotNetVerse
 
             //Part 2 - Deep Dive into OOPS in C#
             //ClassesObjectsConstructors();
-            InheritanceAbstractClass();
+            // InheritanceAbstractClass();
+            //Interfaces()
+            Polymorphism(); 
         }
         public static void ValueReferenceTypes()
         {
@@ -97,7 +99,19 @@ namespace DotNetVerse
             inheritanceAbstractClass.AbstractClassExample();
             Console.ReadKey();
         }
-
-       
+        public static void Interfaces()
+        { 
+             Interfaces interfaces = new Interfaces();
+            interfaces.InterfacesExample();
+            interfaces.InterfacesExample();
+            Console.ReadKey(); 
+        }
+        public static void Polymorphism()
+        {
+            Polymorphism  polymorphism = new Polymorphism();
+            polymorphism.CompiletimeMethodOverloadingPolymorhismExample();
+            polymorphism.RuntimeMethodOverRidingPolymorhismExample();
+            Console.ReadKey();
+        }
     }
 }
