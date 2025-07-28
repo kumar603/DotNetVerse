@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CSharp\DeepOops\ClassesObjectsConstructors.cs" />
+    <Compile Include="CSharp\DeepOops\Encapsulation.cs" />
     <Compile Include="CSharp\DeepOops\InheritanceAbstractClass.cs" />
     <Compile Include="CSharp\DeepOops\Interfaces.cs" />
     <Compile Include="CSharp\DeepOops\Polymorphism.cs" />

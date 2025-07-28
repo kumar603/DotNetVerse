@@ -23,7 +23,8 @@ namespace DotNetVerse
             //ClassesObjectsConstructors();
             // InheritanceAbstractClass();
             //Interfaces()
-            Polymorphism(); 
+            //Polymorphism(); 
+            Encapsulation();
         }
         public static void ValueReferenceTypes()
         {
@@ -111,6 +112,12 @@ namespace DotNetVerse
             Polymorphism  polymorphism = new Polymorphism();
             polymorphism.CompiletimeMethodOverloadingPolymorhismExample();
             polymorphism.RuntimeMethodOverRidingPolymorhismExample();
+            Console.ReadKey();
+        }
+        public static void Encapsulation()
+        {
+            Encapsulation  encapsulation = new Encapsulation();
+            encapsulation.EncapsulationExample();
             Console.ReadKey();
         }
     }
