@@ -24,7 +24,8 @@ namespace DotNetVerse
             // InheritanceAbstractClass();
             //Interfaces()
             //Polymorphism(); 
-            Encapsulation();
+            //Encapsulation();
+            EventsDelegatesAnonymousFunctions();
         }
         public static void ValueReferenceTypes()
         {
@@ -118,6 +119,14 @@ namespace DotNetVerse
         {
             Encapsulation  encapsulation = new Encapsulation();
             encapsulation.EncapsulationExample();
+            Console.ReadKey();
+        }
+        public static void EventsDelegatesAnonymousFunctions()
+        {
+            EventsDelegatesAnonymousFunctions eventsDelegatesAnonymousFunctions = new EventsDelegatesAnonymousFunctions();
+            eventsDelegatesAnonymousFunctions.DelegatesExample();
+            eventsDelegatesAnonymousFunctions.AnonymousExample();
+            eventsDelegatesAnonymousFunctions.EventsExample();
             Console.ReadKey();
         }
     }
