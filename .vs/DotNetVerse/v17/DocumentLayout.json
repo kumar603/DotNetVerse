@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\DotNet\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\deepoops\\retrodeepdiveoops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\retrodeepdiveoops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\deepoops\\typessafetygenericscollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\typessafetygenericscollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\deepoops\\eventsdelegatesanonymousfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\eventsdelegatesanonymousfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\deepoops\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\encapsulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 260,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -36,45 +32,33 @@
               "RelativeDocumentMoniker": "CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
               "RelativeToolTip": "CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T13:20:45.341Z",
+              "WhenOpened": "2025-07-28T14:10:16.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RetroDeepDiveOops.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\RetroDeepDiveOops.cs",
+              "RelativeDocumentMoniker": "CSharp\\DeepOops\\RetroDeepDiveOops.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\RetroDeepDiveOops.cs",
+              "RelativeToolTip": "CSharp\\DeepOops\\RetroDeepDiveOops.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:59:22.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventsDelegatesAnonymousFunctions.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\EventsDelegatesAnonymousFunctions.cs",
-              "RelativeDocumentMoniker": "CSharp\\DeepOops\\EventsDelegatesAnonymousFunctions.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\EventsDelegatesAnonymousFunctions.cs",
-              "RelativeToolTip": "CSharp\\DeepOops\\EventsDelegatesAnonymousFunctions.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:44:45.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Encapsulation.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\Encapsulation.cs",
-              "RelativeDocumentMoniker": "CSharp\\DeepOops\\Encapsulation.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\Encapsulation.cs",
-              "RelativeToolTip": "CSharp\\DeepOops\\Encapsulation.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:14:31.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwIMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAiwIgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T13:28:20.077Z",
               "EditorCaption": ""

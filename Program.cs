@@ -139,5 +139,11 @@ namespace DotNetVerse
             typesSafetyGenericsCollections.CustomGenericClass();
             Console.ReadKey();
         }
+        public static void RetroDeepDiveOops()
+        {
+            RetroDeepDiveOops retroDeepDiveOops = new RetroDeepDiveOops();
+            retroDeepDiveOops.RetroDeepDiveOopsExample();
+            Console.ReadKey();
+        }
     }
 }
