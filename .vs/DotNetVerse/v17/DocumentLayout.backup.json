@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\openclosedprinciple-ocp\\openclosedprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\openclosedprinciple-ocp\\openclosedprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\deepoops\\typessafetygenericscollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\typessafetygenericscollections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\deepoops\\retrodeepdiveoops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\deepoops\\retrodeepdiveoops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 260,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SingleResponsibilityPrinciple.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAjwC8AAAAgAAAAAAAAAA==",
+              "Title": "OpenClosedPrinciple.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
+              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
+              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAE8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:10:27.261Z",
+              "WhenOpened": "2025-08-04T06:39:03.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TypesSafetyGenericsCollections.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
-              "RelativeDocumentMoniker": "CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
-              "RelativeToolTip": "CSharp\\DeepOops\\TypesSafetyGenericsCollections.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Title": "SingleResponsibilityPrinciple.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
+              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
+              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAjwCkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T14:10:16.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RetroDeepDiveOops.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\RetroDeepDiveOops.cs",
-              "RelativeDocumentMoniker": "CSharp\\DeepOops\\RetroDeepDiveOops.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DeepOops\\RetroDeepDiveOops.cs",
-              "RelativeToolTip": "CSharp\\DeepOops\\RetroDeepDiveOops.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T13:59:22.122Z",
+              "WhenOpened": "2025-08-04T06:10:27.261Z",
               "EditorCaption": ""
             },
             {
@@ -73,9 +56,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAJUAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T13:28:20.077Z",
               "EditorCaption": ""

@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using DotNetVerse.CSharp.Fundementals;
 using DotNetVerse.CSharp.DeepOops;
 using DotNetVerse.CSharp.SOLIDPrinciples.SingleResponsibilityPrinciple_SRP;
+using DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP;
+using static DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP.OpenClosedPrinciple;
 namespace DotNetVerse
 {
     internal class Program
@@ -30,7 +32,8 @@ namespace DotNetVerse
             //TypesSafetyGenericsCollections();
 
             //Part 3 - SOLID Principles in C#
-            SingleResponsibilityPrinciple();
+            //SingleResponsibilityPrinciple();
+            OpenClosedPrinciple();
         }
         public static void ValueReferenceTypes()
         {
@@ -66,7 +69,6 @@ namespace DotNetVerse
             dataManagement.DateTimeExample();
             Console.ReadKey();
         }
-
         public static void ExceptionManagement()
         {
             ExceptionManagement exceptionManagement = new ExceptionManagement();
@@ -149,11 +151,17 @@ namespace DotNetVerse
             retroDeepDiveOops.RetroDeepDiveOopsExample();
             Console.ReadKey();
         }
-
         public static void SingleResponsibilityPrinciple()
         {
             SingleResponsibilityPrinciple.UserService singleResponsibilityPrinciple = new SingleResponsibilityPrinciple.UserService();
             singleResponsibilityPrinciple.RegisterUser("Kiran Kumar");
+            Console.ReadKey();
+        }
+        public static void OpenClosedPrinciple()
+        {
+            OpenClosedPrinciple.IDiscountStrategy discountStrategy = new OpenClosedPrinciple.PremiumCustomerDiscount();
+            var calculator = new DiscountCalculatorOCP(discountStrategy);
+            Console.WriteLine("Final Amount: " + calculator.GetDiscountedPrice(1000));
             Console.ReadKey();
         }
     }
