@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DotNetVerse.CSharp.Fundementals;
 using DotNetVerse.CSharp.DeepOops;
+using DotNetVerse.CSharp.SOLIDPrinciples.SingleResponsibilityPrinciple_SRP;
 namespace DotNetVerse
 {
     internal class Program
@@ -26,7 +27,10 @@ namespace DotNetVerse
             //Polymorphism(); 
             //Encapsulation();
             //EventsDelegatesAnonymousFunctions();
-            TypesSafetyGenericsCollections();
+            //TypesSafetyGenericsCollections();
+
+            //Part 3 - SOLID Principles in C#
+            SingleResponsibilityPrinciple();
         }
         public static void ValueReferenceTypes()
         {
@@ -143,6 +147,13 @@ namespace DotNetVerse
         {
             RetroDeepDiveOops retroDeepDiveOops = new RetroDeepDiveOops();
             retroDeepDiveOops.RetroDeepDiveOopsExample();
+            Console.ReadKey();
+        }
+
+        public static void SingleResponsibilityPrinciple()
+        {
+            SingleResponsibilityPrinciple.UserService singleResponsibilityPrinciple = new SingleResponsibilityPrinciple.UserService();
+            singleResponsibilityPrinciple.RegisterUser("Kiran Kumar");
             Console.ReadKey();
         }
     }
