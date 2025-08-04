@@ -10,6 +10,7 @@ using DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP;
 using static DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP.OpenClosedPrinciple;
 using DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP;
 using static DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP.LiskovSubstitutionPrinciple;
+using static DotNetVerse.CSharp.SOLIDPrinciples.InterfaceSegregationPrinciple_ISP.InterfaceSegregationPrinciple;
 namespace DotNetVerse
 {
     internal class Program
@@ -36,7 +37,8 @@ namespace DotNetVerse
             //Part 3 - SOLID Principles in C#
             //SingleResponsibilityPrinciple();
             //OpenClosedPrinciple();
-            LiskovSubstitutionPrinciple();
+            //LiskovSubstitutionPrinciple();
+            InterfaceSegregationPrinciple();
         }
         public static void ValueReferenceTypes()
         {
@@ -177,6 +179,19 @@ namespace DotNetVerse
             credit.ProcessCreditCard("5111-1111-1111-1111");
 
             Console.ReadKey();
+        }
+        public static void InterfaceSegregationPrinciple()
+        {
+            IPrinterISP printer = new OldPrinterISP();
+            printer.Print();
+
+            IScannerLSP scanner = new ScannerOnlyDevice();
+            scanner.Scan();
+
+            ModernMultifunctionPrinter mfp = new ModernMultifunctionPrinter();
+            mfp.Print();
+            mfp.Scan();
+            mfp.Fax();
         }
     }
 }

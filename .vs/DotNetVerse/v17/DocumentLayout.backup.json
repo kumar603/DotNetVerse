@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\DotNet\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\interfacesegregationprinciple-isp\\interfacesegregationprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\interfacesegregationprinciple-isp\\interfacesegregationprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 260,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "InterfaceSegregationPrinciple.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\InterfaceSegregationPrinciple-ISP\\InterfaceSegregationPrinciple.cs",
+              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\InterfaceSegregationPrinciple-ISP\\InterfaceSegregationPrinciple.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\InterfaceSegregationPrinciple-ISP\\InterfaceSegregationPrinciple.cs*",
+              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\InterfaceSegregationPrinciple-ISP\\InterfaceSegregationPrinciple.cs*",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAmwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T09:02:57.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LiskovSubstitutionPrinciple.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
               "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
               "RelativeToolTip": "CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwCwAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwDkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T08:08:25.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SingleResponsibilityPrinciple.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
               "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
@@ -47,18 +64,17 @@
               "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:10:27.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T06:10:27.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAApwKkAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwLkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T13:28:20.077Z",
               "EditorCaption": ""
