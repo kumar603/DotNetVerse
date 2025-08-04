@@ -12,6 +12,7 @@ using DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP;
 using static DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP.LiskovSubstitutionPrinciple;
 using static DotNetVerse.CSharp.SOLIDPrinciples.InterfaceSegregationPrinciple_ISP.InterfaceSegregationPrinciple;
 using static DotNetVerse.CSharp.SOLIDPrinciples.DependencyInversionPrinciple_DIP.DependencyInversionPrinciple;
+using DotNetVerse.CSharp.SOLIDPrinciples.SOLIDSampleApp;
 namespace DotNetVerse
 {
     internal class Program
@@ -40,7 +41,8 @@ namespace DotNetVerse
             //OpenClosedPrinciple();
             //LiskovSubstitutionPrinciple();
             //InterfaceSegregationPrinciple();
-            DependencyInversionPrinciple();
+            //DependencyInversionPrinciple();
+            SOLIDSampleApp();
         }
         public static void ValueReferenceTypes()
         {
@@ -194,6 +196,7 @@ namespace DotNetVerse
             mfp.Print();
             mfp.Scan();
             mfp.Fax();
+            Console.ReadKey();
         }
         public static void DependencyInversionPrinciple()
         {
@@ -205,7 +208,15 @@ namespace DotNetVerse
 
             var smsSender = new NotificationSenderDIP(smsService);
             smsSender.NotifyDIP("Message from sms notifications");
+            Console.ReadKey();
         }
-            
+
+        public static void SOLIDSampleApp()
+        {
+           SOLIDSampleApp sampleApp = new SOLIDSampleApp();
+            sampleApp.SOLIDSampleAppExample();
+            Console.ReadKey();
+        }
+
     }
 }
