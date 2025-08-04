@@ -58,6 +58,7 @@
     <Compile Include="CSharp\Fundementals\FilesManagement.cs" />
     <Compile Include="CSharp\Fundementals\RetroFundamentalsApp.cs" />
     <Compile Include="CSharp\Fundementals\ValueReferenceTypes.cs" />
+    <Compile Include="CSharp\SOLIDPrinciples\LiskovSubstitutionPrinciple-LSP\LiskovSubstitutionPrinciple.cs" />
     <Compile Include="CSharp\SOLIDPrinciples\OpenClosedPrinciple-OCP\OpenClosedPrinciple.cs" />
     <Compile Include="CSharp\SOLIDPrinciples\SingleResponsibilityPrinciple-SRP\SingleResponsibilityPrinciple.cs" />
     <Compile Include="Program.cs" />

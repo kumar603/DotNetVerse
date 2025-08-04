@@ -8,6 +8,8 @@ using DotNetVerse.CSharp.DeepOops;
 using DotNetVerse.CSharp.SOLIDPrinciples.SingleResponsibilityPrinciple_SRP;
 using DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP;
 using static DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP.OpenClosedPrinciple;
+using DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP;
+using static DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP.LiskovSubstitutionPrinciple;
 namespace DotNetVerse
 {
     internal class Program
@@ -33,7 +35,8 @@ namespace DotNetVerse
 
             //Part 3 - SOLID Principles in C#
             //SingleResponsibilityPrinciple();
-            OpenClosedPrinciple();
+            //OpenClosedPrinciple();
+            LiskovSubstitutionPrinciple();
         }
         public static void ValueReferenceTypes()
         {
@@ -162,6 +165,17 @@ namespace DotNetVerse
             OpenClosedPrinciple.IDiscountStrategy discountStrategy = new OpenClosedPrinciple.PremiumCustomerDiscount();
             var calculator = new DiscountCalculatorOCP(discountStrategy);
             Console.WriteLine("Final Amount: " + calculator.GetDiscountedPrice(1000));
+            Console.ReadKey();
+        }
+        public static void LiskovSubstitutionPrinciple()
+        {
+
+            IPaymentProcessor upi = new UPIPayment();
+            upi.ProcessPayment();
+
+            ICreditCardProcessor credit = new CreditCardPayment();
+            credit.ProcessCreditCard("5111-1111-1111-1111");
+
             Console.ReadKey();
         }
     }

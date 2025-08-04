@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\DotNet\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\openclosedprinciple-ocp\\openclosedprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\openclosedprinciple-ocp\\openclosedprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\liskovsubstitutionprinciple-lsp\\liskovsubstitutionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OpenClosedPrinciple.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\OpenClosedPrinciple-OCP\\OpenClosedPrinciple.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Title": "LiskovSubstitutionPrinciple.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
+              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
+              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\LiskovSubstitutionPrinciple-LSP\\LiskovSubstitutionPrinciple.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwCwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:39:03.026Z",
+              "WhenOpened": "2025-08-04T08:08:25.567Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
               "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAjwCkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T06:10:27.261Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAAAKMAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAApwKkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T13:28:20.077Z",
               "EditorCaption": ""
