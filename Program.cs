@@ -13,6 +13,9 @@ using static DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP.
 using static DotNetVerse.CSharp.SOLIDPrinciples.InterfaceSegregationPrinciple_ISP.InterfaceSegregationPrinciple;
 using static DotNetVerse.CSharp.SOLIDPrinciples.DependencyInversionPrinciple_DIP.DependencyInversionPrinciple;
 using DotNetVerse.CSharp.SOLIDPrinciples.SOLIDSampleApp;
+
+using static DotNetVerse.CSharp.DesignPatterns.CreationalSingletonPattern.CreationalSingletonPattern_CSP;
+using DotNetVerse.CSharp.DesignPatterns.CreationalSingletonPattern;
 namespace DotNetVerse
 {
     internal class Program
@@ -42,7 +45,10 @@ namespace DotNetVerse
             //LiskovSubstitutionPrinciple();
             //InterfaceSegregationPrinciple();
             //DependencyInversionPrinciple();
-            SOLIDSampleApp();
+            //SOLIDSampleApp();
+
+            //Part 4 - Design Patterns  in C#
+            CreationalSingletonPattern();
         }
         public static void ValueReferenceTypes()
         {
@@ -210,11 +216,17 @@ namespace DotNetVerse
             smsSender.NotifyDIP("Message from sms notifications");
             Console.ReadKey();
         }
-
         public static void SOLIDSampleApp()
         {
            SOLIDSampleApp sampleApp = new SOLIDSampleApp();
             sampleApp.SOLIDSampleAppExample();
+            Console.ReadKey();
+        }
+
+        public static void CreationalSingletonPattern()
+        {
+            CreationalSingletonPattern_CSP creationalSingletonPattern = new CreationalSingletonPattern_CSP();
+            creationalSingletonPattern.CreationalSingletonPatternTest();
             Console.ReadKey();
         }
 

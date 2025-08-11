@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\DotNet\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\DotNet\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\solidsampleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\solidsampleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\services\\inmemorytaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\services\\inmemorytaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\singleresponsibilityprinciple-srp\\singleresponsibilityprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\services\\consoletasklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\services\\consoletasklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\interfaces\\itasklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\interfaces\\itasklogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\solidsampleapp\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\solidsampleapp\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\solidprinciples\\dependencyinversionprinciple-dip\\dependencyinversionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\solidprinciples\\dependencyinversionprinciple-dip\\dependencyinversionprinciple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\dotnet\\jirarecap\\dotnetverse\\csharp\\designpatterns\\creational-singletonpattern\\creationalsingletonpattern-csp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\designpatterns\\creational-singletonpattern\\creationalsingletonpattern-csp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 260,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SingleResponsibilityPrinciple.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SingleResponsibilityPrinciple-SRP\\SingleResponsibilityPrinciple.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:03:12.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\TaskService.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\TaskService.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\TaskService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:02:03.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConsoleTaskLogger.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\ConsoleTaskLogger.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\ConsoleTaskLogger.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\ConsoleTaskLogger.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\ConsoleTaskLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:01:33.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InMemoryTaskRepository.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\InMemoryTaskRepository.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\InMemoryTaskRepository.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\InMemoryTaskRepository.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Services\\InMemoryTaskRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:01:04.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SOLIDSampleApp.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\SOLIDSampleApp.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\SOLIDSampleApp.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\SOLIDSampleApp.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\SOLIDSampleApp.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwDYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T09:53:40.4Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAqwNgAAAAuAAAAAAAAAA==",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T13:28:20.077Z",
+              "WhenOpened": "2025-08-11T12:19:35.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskService.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskService.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskService.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CreationalSingletonPattern-CSP.cs",
+              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Creational-SingletonPattern\\CreationalSingletonPattern-CSP.cs",
+              "RelativeDocumentMoniker": "CSharp\\DesignPatterns\\Creational-SingletonPattern\\CreationalSingletonPattern-CSP.cs",
+              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Creational-SingletonPattern\\CreationalSingletonPattern-CSP.cs",
+              "RelativeToolTip": "CSharp\\DesignPatterns\\Creational-SingletonPattern\\CreationalSingletonPattern-CSP.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:00:41.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ITaskLogger.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskLogger.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskLogger.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskLogger.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskLogger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T10:00:19.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T09:59:24.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Models\\TaskItem.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Models\\TaskItem.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Models\\TaskItem.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\SOLIDSampleApp\\Models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T09:59:01.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DependencyInversionPrinciple.cs",
-              "DocumentMoniker": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\DependencyInversionPrinciple-DIP\\DependencyInversionPrinciple.cs",
-              "RelativeDocumentMoniker": "CSharp\\SOLIDPrinciples\\DependencyInversionPrinciple-DIP\\DependencyInversionPrinciple.cs",
-              "ToolTip": "C:\\DotNet\\JIRARecap\\DotNetVerse\\CSharp\\SOLIDPrinciples\\DependencyInversionPrinciple-DIP\\DependencyInversionPrinciple.cs",
-              "RelativeToolTip": "CSharp\\SOLIDPrinciples\\DependencyInversionPrinciple-DIP\\DependencyInversionPrinciple.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwAgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T09:39:23.884Z",
+              "WhenOpened": "2025-08-10T12:41:35.049Z",
               "EditorCaption": ""
             }
           ]

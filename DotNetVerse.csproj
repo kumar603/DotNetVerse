@@ -51,6 +51,7 @@
     <Compile Include="CSharp\DeepOops\Polymorphism.cs" />
     <Compile Include="CSharp\DeepOops\RetroDeepDiveOops.cs" />
     <Compile Include="CSharp\DeepOops\TypesSafetyGenericsCollections.cs" />
+    <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\CreationalSingletonPattern-CSP.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
@@ -80,6 +81,14 @@
   <ItemGroup>
     <Content Include="Data\data.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CSharp\DesignPatterns\Behavioral-MediatorPattern\" />
+    <Folder Include="CSharp\DesignPatterns\Behavioral-ObserverPattern\" />
+    <Folder Include="CSharp\DesignPatterns\Behavioral-StrategyPattern\" />
+    <Folder Include="CSharp\DesignPatterns\Creational-FactoryAbstractFactoryPattern\" />
+    <Folder Include="CSharp\DesignPatterns\DesignPatterns-SampleApp\" />
+    <Folder Include="CSharp\DesignPatterns\Structural-AdapterDecorator\" />
+    <Folder Include="CSharp\DesignPatterns\Structural-RepositoryPattern\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
