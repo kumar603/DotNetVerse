@@ -5,3 +5,11 @@ C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.AssemblyReference.c
 C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.CoreCompileInputs.cache
 C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe
 C:\DotNet\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.pdb
+C:\Development\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.exe.config
+C:\Development\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.exe
+C:\Development\JIRARecap\DotNetVerse\bin\Debug\DotNetVerse.pdb
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.AssemblyReference.cache
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe.config
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.CoreCompileInputs.cache
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.pdb
