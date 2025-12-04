@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Development\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\development\\jirarecap\\dotnetverse\\csharp\\designpatterns\\creational-factoryabstractfactorypattern\\creationalfactoryabstractfactorypattern-cfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\designpatterns\\creational-factoryabstractfactorypattern\\creationalfactoryabstractfactorypattern-cfp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\development\\jirarecap\\dotnetverse\\csharp\\designpatterns\\creational-factoryabstractfactorypattern\\burgerkingfactorypattern\\burgerkingfactorypattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\designpatterns\\creational-factoryabstractfactorypattern\\burgerkingfactorypattern\\burgerkingfactorypattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\Development\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreationalFactoryAbstractFactoryPattern-CFP.cs",
-              "DocumentMoniker": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Creational-FactoryAbstractFactoryPattern\\CreationalFactoryAbstractFactoryPattern-CFP.cs",
-              "RelativeDocumentMoniker": "CSharp\\DesignPatterns\\Creational-FactoryAbstractFactoryPattern\\CreationalFactoryAbstractFactoryPattern-CFP.cs",
-              "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Creational-FactoryAbstractFactoryPattern\\CreationalFactoryAbstractFactoryPattern-CFP.cs",
-              "RelativeToolTip": "CSharp\\DesignPatterns\\Creational-FactoryAbstractFactoryPattern\\CreationalFactoryAbstractFactoryPattern-CFP.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGMAAAAeAAAAAAAAAA==",
+              "Title": "BurgerKingFactoryPattern.cs",
+              "DocumentMoniker": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
+              "RelativeDocumentMoniker": "CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
+              "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
+              "RelativeToolTip": "CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T05:10:51.097Z",
+              "WhenOpened": "2025-12-04T07:55:41.554Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAAAOcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAowCYBAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T12:19:35.196Z",
               "EditorCaption": ""

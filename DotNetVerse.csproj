@@ -51,7 +51,10 @@
     <Compile Include="CSharp\DeepOops\Polymorphism.cs" />
     <Compile Include="CSharp\DeepOops\RetroDeepDiveOops.cs" />
     <Compile Include="CSharp\DeepOops\TypesSafetyGenericsCollections.cs" />
+    <Compile Include="CSharp\DesignPatterns\AllDesignPattrens.cs" />
+    <Compile Include="CSharp\DesignPatterns\Creational-FactoryAbstractFactoryPattern\BurgerKingFactoryPattern\BurgerKingFactoryPattern.cs" />
     <Compile Include="CSharp\DesignPatterns\Creational-FactoryAbstractFactoryPattern\CreationalFactoryAbstractFactoryPattern-CFP.cs" />
+    <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\BurgerKingTokenSystem\BurgerKingTokenSystem.cs" />
     <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\CreationalSingletonPattern-CSP.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />

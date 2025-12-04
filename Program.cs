@@ -1,4 +1,6 @@
 ﻿using DotNetVerse.CSharp.DeepOops;
+using DotNetVerse.CSharp.DesignPatterns.Creational_FactoryAbstractFactoryPattern.BurgerKingFactoryPattern;
+using DotNetVerse.CSharp.DesignPatterns.Creational_SingletonPattern.BurgerKingTokenSystem;
 using DotNetVerse.CSharp.DesignPatterns.CreationalFactoryAbstractFactoryPattern;
 using DotNetVerse.CSharp.DesignPatterns.CreationalSingletonPattern;
 using DotNetVerse.CSharp.Fundementals;
@@ -49,7 +51,11 @@ namespace DotNetVerse
 
             //Part 4 - Design Patterns  in C#
             //CreationalSingletonPattern();
-            CreationalFactoryAbstractFactoryPattern();
+            //CreationalFactoryAbstractFactoryPattern();
+
+
+            //Relearn Design Pattrens
+            CreationalSingletonPattern_BurgerKingTokenExample();
         }
         public static void ValueReferenceTypes()
         {
@@ -239,5 +245,59 @@ namespace DotNetVerse
             Console.ReadKey();
         }
 
+        public static void CreationalSingletonPattern_BurgerKingTokenExample()
+        {
+            // creating screens (normal objects)
+            DisplayScreen screenA = new DisplayScreen("Screen A (Counter)");
+            DisplayScreen screenB = new DisplayScreen("Screen B (Waiting Area)");
+            DisplayScreen screenC = new DisplayScreen("Screen C (Pickup Area)");
+
+            Console.WriteLine("----- Burger King Token Display System (Singleton Example) -----");
+            Console.WriteLine();
+
+            // First display (before serving next)
+            screenA.Show();
+            screenB.Show();
+            screenC.Show();
+
+            Console.WriteLine("\nKitchen presses NEXT -> TokenManager.NextToken()\n");
+
+            // Update Token (single instance)
+            TokenManager.Instance.NextToken();
+
+            // After update - all screens read same token
+            screenA.Show();
+            screenB.Show();
+            screenC.Show();
+
+            Console.WriteLine("\nKitchen presses NEXT again...\n");
+
+            TokenManager.Instance.NextToken();
+
+            screenA.Show();
+            screenB.Show();
+            screenC.Show();
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+
+        public static void CreationalFactoryAbstractFactoryPattern_CreateBurger()
+        {
+            Console.WriteLine("===== Welcome to Burger King Factory Pattern Demo =====");
+            Console.Write("Enter Burger Type (Chicken / Veg / Fish): ");
+
+            string input = Console.ReadLine();
+
+            // Customer never creates burger directly → asks factory
+            IBurger burger = BurgerFactory.CreateBurger(input);
+
+            // Factory returns correct object and prepares it
+            burger.Prepare();
+
+            Console.WriteLine("Order Completed Successfully! 🎉");
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
     }
 }
