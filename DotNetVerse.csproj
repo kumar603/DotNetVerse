@@ -72,6 +72,7 @@
     <Compile Include="CSharp\DesignPatterns\Creational-FactoryAbstractFactoryPattern\CreationalFactoryAbstractFactoryPattern-CFP.cs" />
     <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\BurgerKingTokenSystem\BurgerKingTokenSystem.cs" />
     <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\CreationalSingletonPattern-CSP.cs" />
+    <Compile Include="CSharp\DesignPatterns\Structural-AdapterDecorator\BurgerKingDecoratorPattern\BurgerKingDecoratorPattern.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
@@ -105,7 +106,6 @@
     <Folder Include="CSharp\DesignPatterns\Behavioral-MediatorPattern\" />
     <Folder Include="CSharp\DesignPatterns\Behavioral-ObserverPattern\" />
     <Folder Include="CSharp\DesignPatterns\DesignPatterns-SampleApp\" />
-    <Folder Include="CSharp\DesignPatterns\Structural-AdapterDecorator\" />
     <Folder Include="CSharp\DesignPatterns\Structural-RepositoryPattern\" />
   </ItemGroup>
   <ItemGroup>

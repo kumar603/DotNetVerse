@@ -4,6 +4,7 @@ using DotNetVerse.CSharp.DesignPatterns.Creational_FactoryAbstractFactoryPattern
 using DotNetVerse.CSharp.DesignPatterns.Creational_SingletonPattern.BurgerKingTokenSystem;
 using DotNetVerse.CSharp.DesignPatterns.CreationalFactoryAbstractFactoryPattern;
 using DotNetVerse.CSharp.DesignPatterns.CreationalSingletonPattern;
+using DotNetVerse.CSharp.DesignPatterns.Structural_AdapterDecorator.BurgerKingDecoratorPattern;
 using DotNetVerse.CSharp.Fundementals;
 using DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP;
 using DotNetVerse.CSharp.SOLIDPrinciples.OpenClosedPrinciple_OCP;
@@ -58,7 +59,8 @@ namespace DotNetVerse
             //Relearn Design Pattrens
             //CreationalSingletonPattern_BurgerKingTokenExample();
             //CreationalFactoryAbstractFactoryPattern_CreateBurger();
-            BehavioralStrategyPattern_MakeBurgerWithStrateryExample();
+            //BehavioralStrategyPattern_MakeBurgerWithStrateryExample();
+            StructuralAdapterDecoratorPattern_MakeBurgerWithDecoratorExample();
         }
         public static void ValueReferenceTypes()
         {
@@ -288,7 +290,7 @@ namespace DotNetVerse
             string input = Console.ReadLine();
 
             // Customer never creates burger directly → asks factory
-            IBurger burger = BurgerFactory.CreateBurger(input);
+            CSharp.DesignPatterns.Creational_FactoryAbstractFactoryPattern.BurgerKingFactoryPattern.IBurger burger = BurgerFactory.CreateBurger(input);
 
             // Factory returns correct object and prepares it
             burger.Prepare();
@@ -340,6 +342,56 @@ namespace DotNetVerse
             Console.WriteLine("\nOrder completed! Press any key to exit...");
             Console.ReadKey();
         }
-    
+        public static void StructuralAdapterDecoratorPattern_MakeBurgerWithDecoratorExample()
+        {
+            Console.WriteLine("=== Burger King Decorator Pattern Demo ===\n");
+
+            // Start with base burger
+            CSharp.DesignPatterns.Structural_AdapterDecorator.BurgerKingDecoratorPattern.IBurger burger = new ChickenWhopper();
+
+            Console.WriteLine("Base Burger Selected: Chicken Whopper (150 Rs)\n");
+
+            Console.WriteLine("Choose Add-ons:");
+            Console.WriteLine("1. Add Cheese (+20)");
+            Console.WriteLine("2. Add Extra Patty (+40)");
+            Console.WriteLine("3. Add Crispy Layer (+25)");
+            Console.WriteLine("4. Add All Add-ons\n");
+
+            Console.Write("Enter option (1-4): ");
+            string input = Console.ReadLine();
+
+            // Wrap burger with decorators based on selection
+            switch (input)
+            {
+                case "1":
+                    burger = new CheeseDecorator(burger);
+                    break;
+
+                case "2":
+                    burger = new ExtraPattyDecorator(burger);
+                    break;
+
+                case "3":
+                    burger = new CrispyDecorator(burger);
+                    break;
+
+                case "4":
+                    burger = new CheeseDecorator(burger);
+                    burger = new ExtraPattyDecorator(burger);
+                    burger = new CrispyDecorator(burger);
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    return;
+            }
+
+            // Final decorated burger details
+            Console.WriteLine("\nFinal Burger: " + burger.GetDescription());
+            Console.WriteLine("Total Cost: Rs " + burger.GetCost());
+
+            Console.WriteLine("\nOrder Completed! Press any key to exit.");
+            Console.ReadKey();
+        }
     }
 }
