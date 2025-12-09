@@ -1,4 +1,5 @@
 ﻿using DotNetVerse.CSharp.DeepOops;
+using DotNetVerse.CSharp.DesignPatterns.Behavioral_StrategyPattern.BurgerKingStratergyPattern;
 using DotNetVerse.CSharp.DesignPatterns.Creational_FactoryAbstractFactoryPattern.BurgerKingFactoryPattern;
 using DotNetVerse.CSharp.DesignPatterns.Creational_SingletonPattern.BurgerKingTokenSystem;
 using DotNetVerse.CSharp.DesignPatterns.CreationalFactoryAbstractFactoryPattern;
@@ -55,7 +56,9 @@ namespace DotNetVerse
 
 
             //Relearn Design Pattrens
-            CreationalSingletonPattern_BurgerKingTokenExample();
+            //CreationalSingletonPattern_BurgerKingTokenExample();
+            //CreationalFactoryAbstractFactoryPattern_CreateBurger();
+            BehavioralStrategyPattern_MakeBurgerWithStrateryExample();
         }
         public static void ValueReferenceTypes()
         {
@@ -229,22 +232,18 @@ namespace DotNetVerse
             sampleApp.SOLIDSampleAppExample();
             Console.ReadKey();
         }
-
         public static void CreationalSingletonPattern()
         {
             CreationalSingletonPattern_CSP creationalSingletonPattern = new CreationalSingletonPattern_CSP();
             creationalSingletonPattern.CreationalSingletonPatternTest();
             Console.ReadKey();
         }
-
-
         public static void CreationalFactoryAbstractFactoryPattern()
         {
             CreationalFactoryAbstractFactoryPattern_CFP creationalFactoryAbstractFactoryPattern = new CreationalFactoryAbstractFactoryPattern_CFP();
             creationalFactoryAbstractFactoryPattern.CreationalFactoryPatternTest();
             Console.ReadKey();
         }
-
         public static void CreationalSingletonPattern_BurgerKingTokenExample()
         {
             // creating screens (normal objects)
@@ -281,7 +280,6 @@ namespace DotNetVerse
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
-
         public static void CreationalFactoryAbstractFactoryPattern_CreateBurger()
         {
             Console.WriteLine("===== Welcome to Burger King Factory Pattern Demo =====");
@@ -299,5 +297,49 @@ namespace DotNetVerse
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
+
+        public static void BehavioralStrategyPattern_MakeBurgerWithStrateryExample()
+        {
+            Console.WriteLine("=== Burger King Strategy Pattern Demo ===\n");
+
+            // We fixed burger type as example (Chicken Burger)
+            // Factory Pattern would normally select this object.
+            Burger burger = new Burger("Chicken Whopper");
+
+            Console.WriteLine("Select Cooking Style:");
+            Console.WriteLine("1. Grilled");
+            Console.WriteLine("2. Crispy");
+            Console.WriteLine("3. Spicy");
+
+            Console.Write("\nEnter option (1-3): ");
+            string choice = Console.ReadLine();
+
+            // Set cooking style based on user choice
+            switch (choice)
+            {
+                case "1":
+                    burger.SetCookingStrategy(new GrilledStrategy());
+                    break;
+
+                case "2":
+                    burger.SetCookingStrategy(new CrispyStrategy());
+                    break;
+
+                case "3":
+                    burger.SetCookingStrategy(new SpicyStrategy());
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice!");
+                    return;
+            }
+
+            Console.WriteLine();
+            burger.Cook();  // Apply selected behavior
+
+            Console.WriteLine("\nOrder completed! Press any key to exit...");
+            Console.ReadKey();
+        }
+    
     }
 }
