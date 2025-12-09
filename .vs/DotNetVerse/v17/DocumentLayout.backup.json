@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Development\\JIRARecap\\DotNetVerse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\development\\jirarecap\\dotnetverse\\csharp\\designpatterns\\creational-factoryabstractfactorypattern\\burgerkingfactorypattern\\burgerkingfactorypattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\designpatterns\\creational-factoryabstractfactorypattern\\burgerkingfactorypattern\\burgerkingfactorypattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\development\\jirarecap\\dotnetverse\\csharp\\designpatterns\\structural-adapterpattrern\\burgerkingadapterpattern\\burgerkingadapterpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:csharp\\designpatterns\\structural-adapterpattrern\\burgerkingadapterpattern\\burgerkingadapterpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|C:\\Development\\JIRARecap\\DotNetVerse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|c:\\development\\jirarecap\\dotnetverse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{123F8AC7-F836-4AF0-A147-BF6066CD6121}|DotNetVerse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -17,22 +17,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 260,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BurgerKingFactoryPattern.cs",
-              "DocumentMoniker": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
-              "RelativeDocumentMoniker": "CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
-              "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
-              "RelativeToolTip": "CSharp\\DesignPatterns\\creational-factoryabstractfactorypattern\\BurgerKingFactoryPattern\\BurgerKingFactoryPattern.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T07:55:41.554Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAowCYBAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAAwKQBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T12:19:35.196Z",
+              "WhenOpened": "2025-12-09T19:03:10.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BurgerKingAdapterPattern.cs",
+              "DocumentMoniker": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Structural-AdapterPattrern\\BurgerKingAdapterPattern\\BurgerKingAdapterPattern.cs",
+              "RelativeDocumentMoniker": "CSharp\\DesignPatterns\\Structural-AdapterPattrern\\BurgerKingAdapterPattern\\BurgerKingAdapterPattern.cs",
+              "ToolTip": "C:\\Development\\JIRARecap\\DotNetVerse\\CSharp\\DesignPatterns\\Structural-AdapterPattrern\\BurgerKingAdapterPattern\\BurgerKingAdapterPattern.cs",
+              "RelativeToolTip": "CSharp\\DesignPatterns\\Structural-AdapterPattrern\\BurgerKingAdapterPattern\\BurgerKingAdapterPattern.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:00:42.796Z",
               "EditorCaption": ""
             }
           ]

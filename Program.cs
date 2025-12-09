@@ -4,6 +4,7 @@ using DotNetVerse.CSharp.DesignPatterns.Creational_FactoryAbstractFactoryPattern
 using DotNetVerse.CSharp.DesignPatterns.Creational_SingletonPattern.BurgerKingTokenSystem;
 using DotNetVerse.CSharp.DesignPatterns.CreationalFactoryAbstractFactoryPattern;
 using DotNetVerse.CSharp.DesignPatterns.CreationalSingletonPattern;
+using DotNetVerse.CSharp.DesignPatterns.Structural_AdapterDecorator.BurgerKingAdapterPattern;
 using DotNetVerse.CSharp.DesignPatterns.Structural_AdapterDecorator.BurgerKingDecoratorPattern;
 using DotNetVerse.CSharp.Fundementals;
 using DotNetVerse.CSharp.SOLIDPrinciples.LiskovSubstitutionPrinciple_LSP;
@@ -60,7 +61,8 @@ namespace DotNetVerse
             //CreationalSingletonPattern_BurgerKingTokenExample();
             //CreationalFactoryAbstractFactoryPattern_CreateBurger();
             //BehavioralStrategyPattern_MakeBurgerWithStrateryExample();
-            StructuralAdapterDecoratorPattern_MakeBurgerWithDecoratorExample();
+            //StructuralDecoratorPattern_MakeBurgerWithDecoratorExample();
+            StructuralAdapterPattern_OrderBurgerWithNewPaymentAdapterExample();
         }
         public static void ValueReferenceTypes()
         {
@@ -342,7 +344,7 @@ namespace DotNetVerse
             Console.WriteLine("\nOrder completed! Press any key to exit...");
             Console.ReadKey();
         }
-        public static void StructuralAdapterDecoratorPattern_MakeBurgerWithDecoratorExample()
+        public static void StructuralDecoratorPattern_MakeBurgerWithDecoratorExample()
         {
             Console.WriteLine("=== Burger King Decorator Pattern Demo ===\n");
 
@@ -393,5 +395,43 @@ namespace DotNetVerse
             Console.WriteLine("\nOrder Completed! Press any key to exit.");
             Console.ReadKey();
         }
+        public static void StructuralAdapterPattern_OrderBurgerWithNewPaymentAdapterExample()
+        {
+            Console.WriteLine("=== Burger King Adapter Pattern Demo ===\n");
+
+            double amount = 250;
+
+            Console.WriteLine("Customer chooses payment method:");
+            Console.WriteLine("1. Card");
+            Console.WriteLine("2. UPI\n");
+
+            Console.Write("Enter option (1/2): ");
+            string option = Console.ReadLine();
+
+            IPayment paymentMethod = null;
+
+            switch (option)
+            {
+                case "1":
+                    paymentMethod = new CardPayment(); // Old system → works directly
+                    break;
+
+                case "2":
+                    UpiPayment upi = new UpiPayment(); // Incompatible
+                    paymentMethod = new UpiToPosAdapter(upi); // Adapter wraps it
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid option!");
+                    return;
+            }
+
+            Console.WriteLine();
+            paymentMethod.Pay(amount); // Client still calls SAME method
+
+            Console.WriteLine("\nPayment successful! Press any key to exit...");
+            Console.ReadKey();
+        }
     }
+    
 }

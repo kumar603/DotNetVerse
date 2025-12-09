@@ -12,3 +12,4 @@ C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.AssemblyRefere
 C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.csproj.CoreCompileInputs.cache
 C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe
 C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.pdb
+C:\Development\JIRARecap\DotNetVerse\obj\Debug\DotNetVerse.exe.config

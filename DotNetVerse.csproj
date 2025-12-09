@@ -73,6 +73,7 @@
     <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\BurgerKingTokenSystem\BurgerKingTokenSystem.cs" />
     <Compile Include="CSharp\DesignPatterns\Creational-SingletonPattern\CreationalSingletonPattern-CSP.cs" />
     <Compile Include="CSharp\DesignPatterns\Structural-AdapterDecorator\BurgerKingDecoratorPattern\BurgerKingDecoratorPattern.cs" />
+    <Compile Include="CSharp\DesignPatterns\Structural-AdapterPattrern\BurgerKingAdapterPattern\BurgerKingAdapterPattern.cs" />
     <Compile Include="CSharp\Fundementals\ArraysListsDictionaryCRUD.cs" />
     <Compile Include="CSharp\Fundementals\ControlStructures.cs" />
     <Compile Include="CSharp\Fundementals\DataManagement.cs" />
